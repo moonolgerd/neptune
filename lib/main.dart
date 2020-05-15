@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
           builder: (BuildContext context) {
             return AlertDialog(
                 title: new Text("Neptune is up $_counter"),
-                content: new Text("Have you had a beer today?"),
+                content: new Text("How many beers have you had today?"),
                 actions: <Widget>[
                   // usually buttons at the bottom of the dialog
                   new FlatButton(
